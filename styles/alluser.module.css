@@ -1,0 +1,47 @@
+.Main{
+    
+}
+.alluserinfo{
+    width: 80%;
+    margin: 4rem auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.alluserinfo  h1{
+    font-size: 3rem;
+}
+.alluserinfo  small{
+    color: rgb(241, 100, 100);
+}
+
+.beta{
+    display: flex;
+    justify-content: center;
+    font-size: 0.7rem;
+    color: rgb(42, 117, 67);
+}
+.alluser{
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+@media only screen and (max-width: 55em) {
+    .alluser{
+        width: 90%;
+        grid-template-columns: 1fr ;
+    }
+    .alluserinfo{
+        width: 100%;
+        margin: 2rem auto;
+    }
+    .alluserinfo h1{
+        width: 100%;
+        font-size: 2rem;
+    }
+}

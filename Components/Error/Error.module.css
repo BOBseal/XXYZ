@@ -1,0 +1,27 @@
+.Error{
+    position: fixed;
+    align-items: center;
+    text-align: center;
+    inset: 40% 25% 35% 25%;
+    width: 20rem;
+    z-index:111111111;
+    margin: 0 auto;
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: rgb(26, 254, 247);
+    border-radius: 50px;
+}
+.Error_box h1{
+    padding: 1.3rem;
+}
+
+@media only screen and (max-width:35em){
+    .Error{
+        height: 43%;
+        width: 8rem;
+        
+    }
+    .Error_box h1{
+        padding: 0.5rem;
+    }
+}
